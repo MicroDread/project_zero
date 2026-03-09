@@ -16,7 +16,7 @@ mini_movie_frame = pandas.DataFrame(mini_movie_direct)
 
 # Calculate the total payable & profit for each ticket
 mini_movie_frame['Total'] = mini_movie_frame['Ticket Price'] + mini_movie_frame['Surcharge']
-mini_movie_frame['Profit'] = mini_movie_frame['Ticket Price'] - 5
+mini_movie_frame['Profit'  ] = mini_movie_frame['Ticket Price'] - 5
 
 # Work out total paid and total profit...
 total_paid = mini_movie_frame['Total'].sum()
